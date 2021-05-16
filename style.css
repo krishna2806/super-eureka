@@ -1,0 +1,46 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 30px;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    font-size: 30px;
+    float: none;
+  }
+  .heading_div2
+  {
+    font-size: 20px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .copy_right_footer{
+  position: fixed;
+  color:cornflowerblue;
+  background-color: aquamarine;
+  bottom: 0;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  }
+  canvas{
+animation-name: glitch;
+animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin-top: 90px;
+  }
+  @keyframes glitch{
+  from{box-shadow: 5px 5px 18px burlywood;}
+  to{box-shadow: 5px 5px 18px greenyellow;}
+  }
+ 
